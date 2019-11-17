@@ -70,7 +70,7 @@ namespace IkinciOyun
                         if (item > max)
                         {
                             max = item;
-                        }
+                        }  
                     }
                     MessageBox.Show($"En yüksek skorunuz:{max}");
                     Application.Exit();
